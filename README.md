@@ -1,7 +1,3 @@
-# Project
-
-For the project, you can either implement a research paper or implement an algorithm to interactively deform 3D models. You will construct a two-level multi-resolution surface representation and use naive Laplacian editing to deform it.
-
 
 ## Multiresolution mesh editing
 For this task, you will compute a mesh deformation based on the rotations and translations applied interactively to a subset of its vertices via the mouse. Let ![](https://latex.codecogs.com/svg.latex?{H}) be the set of "handle" vertices that the user can manipulate (or leave fixed). We want to compute a deformation for the remaining vertices, denoted as ![](https://latex.codecogs.com/svg.latex?R).
@@ -20,6 +16,7 @@ The algorithm is divided in three phases:
 *Fig. 1: Algorithm Overview*
 
 ### Selecting the handles
+*Implementation for handle painting provided by prof. Teseo Schneider*
 A minimal sphere-based interface for selecting vertices has been implemented in `Selection.ipynb`.
 To use it, execute the cell with widgets, and select numbered keys to specify the segment index (`+` key to add more).
 Use sliders to adjust the position and radius of the selector sphere, and `Paint!` to mark the current segment.
