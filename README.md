@@ -15,8 +15,7 @@ The algorithm is divided in three phases:
 ![](img/schema.jpg)
 *Fig. 1: Algorithm Overview*
 
-### Selecting the handles
-*Implementation for handle painting provided by prof. Teseo Schneider*
+### Selecting the handles (*Implementation for handle painting provided by prof. Teseo Schneider*)
 A minimal sphere-based interface for selecting vertices has been implemented in `Selection.ipynb`.
 To use it, execute the cell with widgets, and select numbered keys to specify the segment index (`+` key to add more).
 Use sliders to adjust the position and radius of the selector sphere, and `Paint!` to mark the current segment.
