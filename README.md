@@ -1,4 +1,4 @@
-Final project for Geometric modeling course provided by Teseo Schneider at UVic
+Final project for Geometric modeling course taught by Teseo Schneider at UVic
 
 ## Multiresolution mesh editing
 For this task, you will compute a mesh deformation based on the rotations and translations applied interactively to a subset of its vertices via the mouse. Let ![](https://latex.codecogs.com/svg.latex?{H}) be the set of "handle" vertices that the user can manipulate (or leave fixed). We want to compute a deformation for the remaining vertices, denoted as ![](https://latex.codecogs.com/svg.latex?R).
